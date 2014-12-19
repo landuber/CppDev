@@ -1,0 +1,19 @@
+1, edit /etc/apt/sources.list to include multiverse respos using
+    sudo vi /etc/apt/sources.list
+    sudo apt-get update
+2, sudo chown vagrant /usr/local/src
+3, sudo chmod u+rwx /usr/local/src
+4, clone https://github.com/jayrambhia/Install-OpenCV.git to /usr/local/src/
+5, from the above folder run the script Ubuntu/opencv_latest.sh
+6, sudo apt-get install libgoogle-glog-dev
+7, sudo apt-get install libboost-all-dev
+8, sudo apt-get install libprotobuf-dev
+9, sudo apt-get install libeigen3-dev
+10, sudo apt-get install scons
+11, sudo apt-get install libgtest-dev
+
+11, Install pcl:
+
+sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+sudo apt-get update
+sudo apt-get install libpcl-all
